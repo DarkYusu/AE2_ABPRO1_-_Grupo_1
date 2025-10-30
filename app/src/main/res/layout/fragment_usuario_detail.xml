@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/material_accent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/label_id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nombre"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_apellido"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/etApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_email"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_perfil"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/etPerfilUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

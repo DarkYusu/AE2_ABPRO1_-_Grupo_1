@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/usuariosListFragment">
+
+    <fragment
+        android:id="@+id/usuariosListFragment"
+        android:name="com.aplicaciones_android.ae2_abpro1___grupo_1.ui.UsuariosListFragment"
+        android:label="Usuarios">
+        <!-- Acción explícita hacia el detalle del usuario (ahora con popUpTo para normalizar la pila) -->
+        <action
+            android:id="@+id/action_usuariosListFragment_to_usuarioDetailFragment"
+            app:destination="@id/usuarioDetailFragment"
+            app:popUpTo="@id/usuariosListFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registroUsuarioFragment"
+        android:name="com.aplicaciones_android.ae2_abpro1___grupo_1.ui.RegistroUsuarioFragment"
+        android:label="Registro" />
+
+    <fragment
+        android:id="@+id/usuarioDetailFragment"
+        android:name="com.aplicaciones_android.ae2_abpro1___grupo_1.ui.UsuarioDetailFragment"
+        android:label="Detalle Usuario">
+        <argument
+            android:name="usuario_id"
+            app:argType="integer" />
+    </fragment>
+
+    <!-- Acción global para poder navegar al detalle desde cualquier destino -->
+    <action
+        android:id="@+id/action_global_usuarioDetailFragment"
+        app:destination="@id/usuarioDetailFragment" />
+
+</navigation>

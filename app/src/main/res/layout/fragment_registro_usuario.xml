@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nombre"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginBottom="2dp" />
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/hint_nombre"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@android:color/background_dark"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="0dp"
+            android:elevation="2dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_margin="0dp"
+            android:backgroundTint="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_apellido"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginBottom="2dp" />
+        <EditText
+            android:id="@+id/etApellido"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/hint_apellido"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@android:color/background_dark"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_email"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginBottom="2dp" />
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@android:color/background_dark"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_perfil"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginBottom="2dp" />
+        <EditText
+            android:id="@+id/etPerfilUrl"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/hint_perfil_url"
+            android:inputType="textUri"
+            android:autofillHints="username"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@android:color/background_dark"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_registrar"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/primary_text_dark"
+            android:backgroundTint="@color/material_accent"
+            android:textStyle="bold"
+            android:elevation="2dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

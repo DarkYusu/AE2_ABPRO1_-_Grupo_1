@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AE2_ABPRO1_-_Grupo_1</string>
+    <string name="title_usuarios">Usuarios</string>
+    <string name="title_registro">Registro</string>
+    <string name="no_users">No hay usuarios</string>
+
+    <!-- Registro usuario -->
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_perfil_url">Perfil URL</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_guardar">Guardar</string>
+
+    <string name="msg_nombre_email_requeridos">Nombre y email son requeridos</string>
+    <string name="msg_registrando">Registrando...</string>
+    <string name="msg_registrado">Registrado: %1$s (%2$s)</string>
+    <string name="msg_error">Error: %1$s</string>
+
+    <!-- Usuario detail -->
+    <string name="msg_cargando">Cargando...</string>
+    <string name="msg_actualizando">Actualizando...</string>
+    <string name="msg_usuario_actualizado">Usuario actualizado</string>
+    <string name="msg_eliminando">Eliminando...</string>
+    <string name="msg_usuario_eliminado">Usuario eliminado</string>
+    <string name="msg_nombre_email_requeridos_short">Nombre y email son requeridos</string>
+    <string name="label_id">ID:</string>
+    <string name="label_id_full">ID: %1$d</string>
+    <string name="confirm_delete_title">Confirmar eliminación</string>
+    <string name="confirm_delete_message">¿Deseas eliminar este usuario?</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="edit_user">Editar usuario</string>
+    <string name="label_nombre">Nombre:</string>
+    <string name="label_apellido">Apellido:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_perfil">Perfil</string>
+    <string name="desc_editar_usuario">Editar usuario</string>
+    <string name="desc_eliminar_usuario">Eliminar usuario</string>
+</resources>

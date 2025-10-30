@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/usuariosListFragment"
+        android:icon="@drawable/ic_nav_usuarios"
+        android:title="@string/title_usuarios" />
+    <item
+        android:id="@+id/registroUsuarioFragment"
+        android:icon="@drawable/ic_nav_registro"
+        android:title="@string/title_registro" />
+</menu>
